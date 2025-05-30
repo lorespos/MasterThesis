@@ -1,7 +1,6 @@
 
 %
-matlabFolder = '/hus/home/loresp/MATLAB/R2018b/OXSA/OXSA-master.fr/OXSA-master.fr/main/+AMARES/+priorKnowledge';
-cd('/hus/home/loresp/MATLAB/R2018b/OXSA/OXSA-master.fr/OXSA-master.fr/Resultater/METAMUS13') 
+matlabFolder = ('folder_location') 
 %lag en ny mappe der du vil lagre data og kopier sti
 
 %Loop to save important inforamtion for one block of stimuli for each
