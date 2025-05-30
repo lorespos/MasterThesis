@@ -1,4 +1,4 @@
-%% 22/11/2024 Pierfrancesco Ambrosi 
+%% 22/11/2024 Pierfrancesco Ambrosi and Lorenz Esposito
 %% OXSA Main
 
 clearvars
@@ -24,7 +24,7 @@ pk = AMARES.priorKnowledge.PK_3T_Brain_edit_GE_Lorenz;
 metamus1 = zeros(1024, 6);
 
 % load data
-data_s4 = load('/hus/home/loresp/MATLAB/R2018b/OXSA/OXSA-master.fr/OXSA-master.fr/METAMUS/Exam9557_METAMUS13/Series7/20210603_165024_P39424.mat');
+data_s4 = load('file_location')
 
 
 %metamus1(:,1:6) = data_s4.spec';
